@@ -1,0 +1,15 @@
+{
+  "name": "campus-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "campus.js",
+  "scripts": {
+    "start": "node campus.js",
+    "dev": "node --watch campus.js",
+    "version": "node --version && npm --version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
