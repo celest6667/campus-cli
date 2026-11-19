@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node campus.js",
     "dev": "node --watch campus.js",
-    "version": "node --version && npm --version"
+    "versions": "node --version && npm --version"
   },
   "keywords": [],
   "author": "",
