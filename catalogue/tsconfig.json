@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // Les dossiers : on lit les .ts dans src, on écrit les .js dans dist
+    "rootDir": "src",
+    "outDir": "dist",
+
+    // Le JavaScript produit : version récente du langage, imports ESM pour Node
+    "target": "es2024",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    // L'environnement : @types/node décrit process, console et les API de Node
+    "types": ["node"],
+
+    // La sévérité : strict refuse notamment les oublis de undefined
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": ["src"]
+}
